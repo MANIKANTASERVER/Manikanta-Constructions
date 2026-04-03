@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Manikanta Constructions</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="header" id="header">
+    <div class="logo" tabindex="0">Manikanta Constructions</div>
+    <nav class="nav" role="navigation" aria-label="Main navigation">
+      <ul>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#why-us">Why Us</a></li>
+        <li><a href="#contact" class="btn-accent">Get Quote</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero" id="hero">
+    <video class="hero-video" autoplay muted loop playsinline>
+      <source src="assets/hero.mp4" type="video/mp4" />
+    </video>
+    <div class="hero-overlay"></div>
+    <div class="hero-text" data-parallax>
+      <h1>Engineering Excellence in Every Structure</h1>
+      <p>From blueprint to landmark, we deliver with precision, integrity, and artistry.</p>
+      <a href="#projects" class="btn-primary">Explore Our Work</a>
+    </div>
+  </section>
+
+  <section id="services" class="services fade-in">
+    <div class="container">
+      <h2>What We Do</h2>
+      <div class="service-cards">
+        <div class="card" tabindex="0">
+          <img src="assets/residental.jpg" alt="Residential" />
+          <div class="card-info">
+            <h3>Residential</h3>
+            <p>Homes that reflect craftsmanship & comfort.</p>
+          </div>
+        </div>
+        <div class="card" tabindex="0">
+          <img src="assets/commercial.jpg" alt="Commercial" />
+          <div class="card-info">
+            <h3>Commercial</h3>
+            <p>Office & Retail spaces that inspire.</p>
+          </div>
+        </div>
+        <div class="card" tabindex="0">
+          <img src="assets/public.webp" alt="Infrastructure" />
+          <div class="card-info">
+            <h3>Infrastructure</h3>
+            <p>Large scale public & industrial projects.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects fade-in">
+    <div class="container">
+      <h2>Featured Projects</h2>
+      <div class="project-grid">
+        <div class="project-card" tabindex="0">
+          <img src="assets/bridge.jpg" alt="Landmark Bridge" />
+          <div class="project-info">
+            <h3>Landmark Bridge</h3>
+            <p>Infrastructure</p>
+          </div>
+        </div>
+        <div class="project-card" tabindex="0">
+          <img src="assets/luxury.jpg" alt="Luxury Apartments" />
+          <div class="project-info">
+            <h3>Luxury Apartments</h3>
+            <p>Residential</p>
+          </div>
+        </div>
+        <div class="project-card" tabindex="0">
+          <img src="assets/com.png" alt="Office Complex" />
+          <div class="project-info">
+            <h3>Office Complex</h3>
+            <p>Commercial</p>
+          </div>
+        </div>
+        <div class="project-card" tabindex="0">
+          <img src="assets/roadsss.png" alt="Metro Station" />
+          <div class="project-info">
+            <h3>Metro Station</h3>
+            <p>Transportation</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="why-us" class="why-us fade-in">
+    <div class="container">
+      <h2>Why Choose Us</h2>
+      <p>With decades of experience, a commitment to quality, and a portfolio of projects that stand tall, we’re more than builders — we’re creators of legacies.</p>
+      <div class="stats">
+        <div class="stat" tabindex="0">
+          <div class="stat-number" data-target="100">0</div>
+          <div class="stat-label">Projects Delivered</div>
+        </div>
+        <div class="stat" tabindex="0">
+          <div class="stat-number" data-target="20">0</div>
+          <div class="stat-label">Years in Business</div>
+        </div>
+        <div class="stat" tabindex="0">
+          <div class="stat-number" data-target="5">0</div>
+          <div class="stat-label">Cities Served</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact fade-in">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form class="contact-form" aria-label="Contact form">
+        <input type="text" name="name" placeholder="Your Name" required autocomplete="name" />
+        <input type="email" name="email" placeholder="Your Email" required autocomplete="email" />
+        <textarea name="message" placeholder="Tell us about your project" rows="5" required></textarea>
+        <button type="submit" class="btn-primary">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 Manikanta Constructions. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
